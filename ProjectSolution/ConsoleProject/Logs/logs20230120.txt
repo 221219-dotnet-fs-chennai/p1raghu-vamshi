@@ -1,6 +1,0 @@
-2023-01-20 09:27:31.150 +05:30 [INF] ----Program starts----
-2023-01-20 09:27:31.280 +05:30 [INF] ----Program Ends----
-2023-01-20 09:28:57.433 +05:30 [INF] ----Program starts----
-2023-01-20 09:28:57.466 +05:30 [INF] ----Program Ends----
-2023-01-20 09:29:02.598 +05:30 [INF] Displaying Add details menu to user
-2023-01-20 09:29:06.228 +05:30 [INF] Displaying main menu to user

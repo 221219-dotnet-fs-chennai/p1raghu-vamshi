@@ -1,0 +1,298 @@
+2023-01-23 21:15:12.176 +05:30 [INF] ----Program starts----
+2023-01-23 21:15:12.325 +05:30 [INF] ----Program Ends----
+2023-01-23 21:15:27.550 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:15:53.015 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:16:49.736 +05:30 [INF] Getting All SkillsDetails
+2023-01-23 21:16:50.163 +05:30 [INF] Reading skills about to start
+2023-01-23 21:16:50.165 +05:30 [INF] Reading skills ends
+2023-01-23 21:16:51.232 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:16:55.213 +05:30 [INF] Getting All EducationDetails
+2023-01-23 21:16:55.597 +05:30 [INF] Reading education about to start
+2023-01-23 21:16:55.600 +05:30 [INF] Reading education ends
+2023-01-23 21:16:56.403 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:16:59.776 +05:30 [INF] Getting All CompanyDetails
+2023-01-23 21:17:00.081 +05:30 [INF] Reading company about to start
+2023-01-23 21:17:00.082 +05:30 [INF] Reading  ends
+2023-01-23 21:17:01.875 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:17:04.567 +05:30 [INF] Getting All AddressDetails
+2023-01-23 21:17:04.891 +05:30 [INF] Reading address about to start
+2023-01-23 21:17:04.892 +05:30 [INF] Reading address ends
+2023-01-23 21:17:54.913 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:18:03.880 +05:30 [INF] Getting All UserDetails
+2023-01-23 21:18:34.402 +05:30 [INF] Got list of 1 UserDetails
+2023-01-23 21:18:34.402 +05:30 [INF] Reading userDetails about to start
+2023-01-23 21:18:34.404 +05:30 [INF] Reading userDetails ends
+2023-01-23 21:18:44.128 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:18:48.477 +05:30 [INF] Getting All AddressDetails
+2023-01-23 21:18:48.827 +05:30 [INF] Reading address about to start
+2023-01-23 21:18:48.828 +05:30 [INF] Reading address ends
+2023-01-23 21:18:54.257 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:18:58.408 +05:30 [INF] Getting All CompanyDetails
+2023-01-23 21:18:58.761 +05:30 [INF] Reading company about to start
+2023-01-23 21:18:58.762 +05:30 [INF] Reading  ends
+2023-01-23 21:19:05.181 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:19:09.295 +05:30 [INF] Displaying main menu to user
+2023-01-23 21:24:39.744 +05:30 [INF] ----Program starts----
+2023-01-23 21:24:39.780 +05:30 [INF] ----Program Ends----
+2023-01-23 21:24:42.251 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:24:55.120 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:26:28.030 +05:30 [INF] ----Program starts----
+2023-01-23 21:26:28.072 +05:30 [INF] ----Program Ends----
+2023-01-23 21:26:29.468 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:26:44.216 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:30:20.962 +05:30 [INF] ----Program starts----
+2023-01-23 21:30:20.997 +05:30 [INF] ----Program Ends----
+2023-01-23 21:30:25.267 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:30:42.155 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:30:44.664 +05:30 [INF] Deleting the user
+2023-01-23 21:32:45.572 +05:30 [INF] ----Program starts----
+2023-01-23 21:32:45.605 +05:30 [INF] ----Program Ends----
+2023-01-23 21:32:47.828 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:33:03.467 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:33:05.530 +05:30 [INF] Deleting the user
+2023-01-23 21:34:39.878 +05:30 [INF] ----Program starts----
+2023-01-23 21:34:39.925 +05:30 [INF] ----Program Ends----
+2023-01-23 21:34:41.971 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:34:54.570 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:35:05.622 +05:30 [INF] Deleting the user
+2023-01-23 21:44:56.030 +05:30 [INF] ----Program starts----
+2023-01-23 21:44:56.065 +05:30 [INF] ----Program Ends----
+2023-01-23 21:44:59.279 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:45:18.801 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:45:33.576 +05:30 [INF] Displaying main menu to user
+2023-01-23 21:45:36.420 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 21:46:08.781 +05:30 [INF] Displaying main menu to user
+2023-01-23 21:46:10.408 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:46:25.861 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:49:11.193 +05:30 [INF] ----Program starts----
+2023-01-23 21:49:11.233 +05:30 [INF] ----Program Ends----
+2023-01-23 21:49:13.203 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 21:49:29.680 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:03:14.118 +05:30 [INF] ----Program starts----
+2023-01-23 22:03:14.152 +05:30 [INF] ----Program Ends----
+2023-01-23 22:03:22.053 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:03:40.520 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:06:08.317 +05:30 [INF] ----Program starts----
+2023-01-23 22:06:08.353 +05:30 [INF] ----Program Ends----
+2023-01-23 22:06:15.385 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:06:34.840 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:10:37.411 +05:30 [INF] ----Program starts----
+2023-01-23 22:10:37.456 +05:30 [INF] ----Program Ends----
+2023-01-23 22:10:40.596 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:11:01.352 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:11:17.000 +05:30 [INF] Displaying main menu to user
+2023-01-23 22:11:20.391 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:12:21.437 +05:30 [INF] ----Program starts----
+2023-01-23 22:12:21.472 +05:30 [INF] ----Program Ends----
+2023-01-23 22:12:25.691 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:12:45.918 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:12:54.549 +05:30 [INF] Getting All AddressDetails
+2023-01-23 22:12:54.913 +05:30 [INF] Reading address about to start
+2023-01-23 22:12:54.946 +05:30 [INF] Reading address ends
+2023-01-23 22:41:29.496 +05:30 [INF] ----Program starts----
+2023-01-23 22:41:29.527 +05:30 [INF] ----Program Ends----
+2023-01-23 22:41:35.915 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:41:53.155 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:45:50.190 +05:30 [INF] ----Program starts----
+2023-01-23 22:45:50.250 +05:30 [INF] ----Program Ends----
+2023-01-23 22:46:28.265 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:46:44.777 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:46:48.636 +05:30 [INF] Getting All UserDetails
+2023-01-23 22:47:12.033 +05:30 [INF] Got list of 1 UserDetails
+2023-01-23 22:47:12.033 +05:30 [INF] Reading userDetails about to start
+2023-01-23 22:47:12.034 +05:30 [INF] Reading userDetails ends
+2023-01-23 22:47:15.855 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:48:23.002 +05:30 [INF] Getting All UserDetails
+2023-01-23 22:48:29.232 +05:30 [INF] Got list of 1 UserDetails
+2023-01-23 22:48:29.232 +05:30 [INF] Reading userDetails about to start
+2023-01-23 22:48:29.232 +05:30 [INF] Reading userDetails ends
+2023-01-23 22:49:09.141 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:49:26.353 +05:30 [INF] Getting All UserDetails
+2023-01-23 22:49:29.657 +05:30 [INF] Got list of 1 UserDetails
+2023-01-23 22:49:29.657 +05:30 [INF] Reading userDetails about to start
+2023-01-23 22:49:29.657 +05:30 [INF] Reading userDetails ends
+2023-01-23 22:49:32.408 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:51:05.773 +05:30 [INF] Getting All UserDetails
+2023-01-23 22:51:06.660 +05:30 [INF] Got list of 1 UserDetails
+2023-01-23 22:51:06.660 +05:30 [INF] Reading userDetails about to start
+2023-01-23 22:51:06.660 +05:30 [INF] Reading userDetails ends
+2023-01-23 22:58:39.528 +05:30 [INF] ----Program starts----
+2023-01-23 22:58:39.560 +05:30 [INF] ----Program Ends----
+2023-01-23 22:58:43.618 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:58:58.883 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 22:59:04.520 +05:30 [INF] Getting All UserDetails
+2023-01-23 23:00:38.065 +05:30 [INF] ----Program starts----
+2023-01-23 23:00:38.100 +05:30 [INF] ----Program Ends----
+2023-01-23 23:00:42.735 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:00:57.861 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:01:03.298 +05:30 [INF] Getting All UserDetails
+2023-01-23 23:01:03.737 +05:30 [INF] Got list of 1 UserDetails
+2023-01-23 23:01:03.737 +05:30 [INF] Reading userDetails about to start
+2023-01-23 23:01:03.737 +05:30 [INF] Reading userDetails ends
+2023-01-23 23:01:23.834 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:01:30.880 +05:30 [INF] Getting All AddressDetails
+2023-01-23 23:01:31.190 +05:30 [INF] Reading address about to start
+2023-01-23 23:01:31.192 +05:30 [INF] Reading address ends
+2023-01-23 23:01:32.764 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:01:38.280 +05:30 [INF] Getting All CompanyDetails
+2023-01-23 23:01:38.583 +05:30 [INF] Reading company about to start
+2023-01-23 23:01:38.584 +05:30 [INF] Reading  ends
+2023-01-23 23:01:40.164 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:01:46.978 +05:30 [INF] Getting All EducationDetails
+2023-01-23 23:01:47.333 +05:30 [INF] Reading education about to start
+2023-01-23 23:01:47.335 +05:30 [INF] Reading education ends
+2023-01-23 23:01:49.437 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:03:09.733 +05:30 [INF] ----Program starts----
+2023-01-23 23:03:09.766 +05:30 [INF] ----Program Ends----
+2023-01-23 23:03:13.315 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:03:18.902 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:03:24.637 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:03:31.298 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:03:36.714 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:03:44.823 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:03:51.903 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:04:10.151 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:04:15.998 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:04:35.442 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:04:46.875 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:05:02.543 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:05:07.027 +05:30 [INF] Adding UserDetails 
+11 24 Miss Pooja Reddy kokka female pooja123@gmail.com Pooja@123
+2023-01-23 23:05:09.411 +05:30 [INF] Successful at adding  UserDetails!
+2023-01-23 23:05:09.411 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:05:13.744 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:05:56.834 +05:30 [INF] Adding Address 
+11 Hyderabad india 500002 
+2023-01-23 23:05:57.134 +05:30 [INF] Successful at adding  Address!
+2023-01-23 23:06:09.765 +05:30 [INF] Adding Address 
+11 Hyderabad india 500002 
+2023-01-23 23:06:10.084 +05:30 [INF] Successful at adding  Address!
+2023-01-23 23:17:12.299 +05:30 [INF] ----Program starts----
+2023-01-23 23:17:12.334 +05:30 [INF] ----Program Ends----
+2023-01-23 23:17:16.494 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:17:48.736 +05:30 [INF] Adding Address 
+11 Hyderabad india 500008 
+2023-01-23 23:17:51.180 +05:30 [INF] Successful at adding  Address!
+2023-01-23 23:17:51.180 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:18:19.374 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:19:27.981 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:19:34.102 +05:30 [INF] Getting All AddressDetails
+2023-01-23 23:19:34.464 +05:30 [INF] Reading address about to start
+2023-01-23 23:19:34.471 +05:30 [INF] Reading address ends
+2023-01-23 23:28:24.809 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:28:40.800 +05:30 [INF] Getting All UserDetails
+2023-01-23 23:28:43.124 +05:30 [INF] Got list of 1 UserDetails
+2023-01-23 23:28:43.125 +05:30 [INF] Reading userDetails about to start
+2023-01-23 23:28:43.126 +05:30 [INF] Reading userDetails ends
+2023-01-23 23:29:07.353 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:29:42.135 +05:30 [INF] Deleting the user
+2023-01-23 23:29:44.952 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:29:48.468 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:29:58.570 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:30:03.614 +05:30 [INF] Getting All UserDetails
+2023-01-23 23:30:03.998 +05:30 [INF] Got list of 1 UserDetails
+2023-01-23 23:30:03.998 +05:30 [INF] Reading userDetails about to start
+2023-01-23 23:30:03.998 +05:30 [INF] Reading userDetails ends
+2023-01-23 23:30:14.818 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:31:38.093 +05:30 [INF] Deleting the user
+2023-01-23 23:31:41.482 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:33:41.220 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:35:20.888 +05:30 [INF] Adding Company 
+11 Hexaware hyderabad 2 hexaware@gmail.com hexaware.com
+2023-01-23 23:35:21.339 +05:30 [INF] Failed to add Company -The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Company__userId__546180BB". The conflict occurred in database "AssociatesDb", table "Raghu.UserDetails", column 'userId'.
+The statement has been terminated.
+2023-01-23 23:35:45.776 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:36:55.847 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:37:41.437 +05:30 [INF] ----Program starts----
+2023-01-23 23:37:41.471 +05:30 [INF] ----Program Ends----
+2023-01-23 23:37:44.325 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:37:47.130 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:37:51.618 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:37:55.145 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:37:59.754 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:38:10.197 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:38:16.807 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:38:22.008 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:38:26.801 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:38:42.174 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:38:50.449 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:38:52.215 +05:30 [INF] Adding UserDetails 
+1 22 Mr kothamidde Raghu vamshi male raghuvamshi0114@gmail.com Raghu@123
+2023-01-23 23:38:54.749 +05:30 [INF] Successful at adding  UserDetails!
+2023-01-23 23:38:54.749 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:38:56.973 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:39:26.950 +05:30 [INF] Adding Address 
+1 Hyderabad India 500008 
+2023-01-23 23:39:27.299 +05:30 [INF] Successful at adding  Address!
+2023-01-23 23:39:27.300 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:39:28.866 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:40:33.835 +05:30 [INF] Adding Company 
+1 Revature Chennai 1 Revature@gmail.com Revature.com
+2023-01-23 23:40:34.174 +05:30 [INF] Successful at adding  Company!
+2023-01-23 23:40:34.174 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:41:07.832 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:41:53.501 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:41:57.200 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:42:53.191 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:42:56.348 +05:30 [INF] Deleting the user
+2023-01-23 23:43:00.651 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:44:04.750 +05:30 [INF] ----Program starts----
+2023-01-23 23:44:04.795 +05:30 [INF] ----Program Ends----
+2023-01-23 23:44:07.151 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:44:08.885 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:44:13.411 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:44:20.190 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:44:24.490 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:44:34.320 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:44:39.681 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:44:45.700 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:44:52.040 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:45:06.912 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:45:13.931 +05:30 [INF] Displaying add details menu to user
+2023-01-23 23:45:15.383 +05:30 [INF] Adding UserDetails 
+1 23 Mr kothamidde Raghu vamshi Male raghuvamshi0114@gmail.com Raghu@123
+2023-01-23 23:45:18.951 +05:30 [INF] Successful at adding  UserDetails!
+2023-01-23 23:45:18.951 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:46:15.843 +05:30 [INF] ----Program starts----
+2023-01-23 23:46:15.876 +05:30 [INF] ----Program Ends----
+2023-01-23 23:46:45.528 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:47:13.800 +05:30 [INF] Adding Address 
+1 Hyderabad India 50008 
+2023-01-23 23:47:16.405 +05:30 [INF] Successful at adding  Address!
+2023-01-23 23:47:16.405 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:48:08.566 +05:30 [INF] Adding Company 
+1 Revature Chennai 1 Revature@gmail.com Revature.com
+2023-01-23 23:48:08.925 +05:30 [INF] Successful at adding  Company!
+2023-01-23 23:48:08.925 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:49:05.984 +05:30 [INF] Adding Education 
+1 Jntu-A no EEE 2021 68.20
+2023-01-23 23:49:06.372 +05:30 [INF] Successful at adding  Education!
+2023-01-23 23:49:06.373 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:51:20.514 +05:30 [INF] ----Program starts----
+2023-01-23 23:51:20.563 +05:30 [INF] ----Program Ends----
+2023-01-23 23:51:24.130 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:51:43.896 +05:30 [INF] Adding Skills 
+1 Java,C#,C  
+2023-01-23 23:51:46.538 +05:30 [INF] Successful at adding  Skills!
+2023-01-23 23:51:46.538 +05:30 [INF] Displaying SignUp details menu to user
+2023-01-23 23:51:53.875 +05:30 [INF] Displaying main menu to user
+2023-01-23 23:51:56.474 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:52:14.948 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:52:24.870 +05:30 [INF] Getting All UserDetails
+2023-01-23 23:52:25.680 +05:30 [INF] Got list of 1 UserDetails
+2023-01-23 23:52:25.681 +05:30 [INF] Reading userDetails about to start
+2023-01-23 23:52:25.682 +05:30 [INF] Reading userDetails ends
+2023-01-23 23:52:31.747 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:55:55.390 +05:30 [INF] ----Program starts----
+2023-01-23 23:55:55.420 +05:30 [INF] ----Program Ends----
+2023-01-23 23:56:03.088 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:56:25.060 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:56:33.029 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:57:11.815 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:57:16.638 +05:30 [INF] Getting All UserDetails
+2023-01-23 23:57:17.405 +05:30 [INF] Got list of 1 UserDetails
+2023-01-23 23:57:17.405 +05:30 [INF] Reading userDetails about to start
+2023-01-23 23:57:17.406 +05:30 [INF] Reading userDetails ends
+2023-01-23 23:59:22.455 +05:30 [INF] Displaying Login details menu to user
+2023-01-23 23:59:25.792 +05:30 [INF] Deleting the user
+2023-01-23 23:59:28.573 +05:30 [INF] Displaying main menu to user

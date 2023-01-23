@@ -1,0 +1,18 @@
+2023-01-15 11:45:46.067 +05:30 [INF] ----Program starts----
+2023-01-15 11:45:46.161 +05:30 [INF] ----Program Ends----
+2023-01-15 11:45:57.658 +05:30 [INF] Exiting application
+2023-01-15 11:47:19.258 +05:30 [INF] ----Program starts----
+2023-01-15 11:47:19.289 +05:30 [INF] ----Program Ends----
+2023-01-15 11:47:23.672 +05:30 [INF] Exiting application
+2023-01-15 11:47:54.144 +05:30 [INF] ----Program starts----
+2023-01-15 11:47:54.175 +05:30 [INF] ----Program Ends----
+2023-01-15 11:48:09.560 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 11:48:34.951 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 11:48:42.617 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 11:48:53.097 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 11:49:01.585 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 11:49:13.019 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 11:49:19.739 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 11:49:24.288 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 11:49:28.612 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 11:50:00.870 +05:30 [INF] Displaying Add details menu to user

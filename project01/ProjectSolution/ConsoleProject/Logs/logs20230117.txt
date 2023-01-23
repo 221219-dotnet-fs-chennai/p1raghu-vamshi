@@ -1,0 +1,83 @@
+2023-01-17 10:32:22.324 +05:30 [INF] ----Program starts----
+2023-01-17 10:32:22.422 +05:30 [INF] ----Program Ends----
+2023-01-17 10:32:32.512 +05:30 [INF] Getting All AddressDetails
+2023-01-17 10:32:36.579 +05:30 [INF] Reading address about to start
+2023-01-17 10:32:36.580 +05:30 [INF] Reading address ends
+2023-01-17 10:34:21.056 +05:30 [INF] ----Program starts----
+2023-01-17 10:34:21.086 +05:30 [INF] ----Program Ends----
+2023-01-17 10:34:40.578 +05:30 [INF] Displaying Main Menu to user
+2023-01-17 10:34:45.566 +05:30 [INF] Getting All AddressDetails
+2023-01-17 10:34:47.815 +05:30 [INF] Reading address about to start
+2023-01-17 10:34:47.817 +05:30 [INF] Reading address ends
+2023-01-17 10:35:05.907 +05:30 [INF] Displaying Main Menu to user
+2023-01-17 10:35:13.747 +05:30 [INF] Getting All LoginDetails
+2023-01-17 10:35:14.035 +05:30 [INF] Reading login about to start
+2023-01-17 10:35:14.036 +05:30 [INF] Reading login ends
+2023-01-17 10:36:57.177 +05:30 [INF] ----Program starts----
+2023-01-17 10:36:57.208 +05:30 [INF] ----Program Ends----
+2023-01-17 10:37:02.615 +05:30 [INF] Getting All AddressDetails
+2023-01-17 10:37:04.762 +05:30 [INF] Reading address about to start
+2023-01-17 10:37:04.763 +05:30 [INF] Reading address ends
+2023-01-17 10:37:18.934 +05:30 [INF] ----Program starts----
+2023-01-17 10:37:18.971 +05:30 [INF] ----Program Ends----
+2023-01-17 10:38:01.073 +05:30 [INF] Adding Address 
+11 chennai india 603103 
+2023-01-17 10:38:03.717 +05:30 [INF] Failed to add Address -The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Address__pincode__7AF13DF7". The conflict occurred in database "AssociatesDb", table "Raghu.UserDetails", column 'userId'.
+The statement has been terminated.
+2023-01-17 10:43:39.434 +05:30 [INF] ----Program starts----
+2023-01-17 10:43:39.465 +05:30 [INF] ----Program Ends----
+2023-01-17 10:43:45.413 +05:30 [INF] Getting All UserDetails
+2023-01-17 10:43:52.343 +05:30 [INF] Got list of 3 UserDetails
+2023-01-17 10:43:52.343 +05:30 [INF] Reading userDetails about to start
+2023-01-17 10:43:52.344 +05:30 [INF] Reading userDetails ends
+2023-01-17 10:43:57.120 +05:30 [INF] Displaying Main Menu to user
+2023-01-17 10:44:02.641 +05:30 [INF] Getting All LoginDetails
+2023-01-17 10:44:03.008 +05:30 [INF] Reading login about to start
+2023-01-17 10:44:03.009 +05:30 [INF] Reading login ends
+2023-01-17 10:44:06.061 +05:30 [INF] Displaying Main Menu to user
+2023-01-17 10:44:11.522 +05:30 [INF] Getting All EducationDetails
+2023-01-17 10:44:11.805 +05:30 [INF] Reading education about to start
+2023-01-17 10:44:11.806 +05:30 [INF] Reading education ends
+2023-01-17 10:44:44.076 +05:30 [INF] Displaying Main Menu to user
+2023-01-17 10:48:24.945 +05:30 [INF] ----Program starts----
+2023-01-17 10:48:24.990 +05:30 [INF] ----Program Ends----
+2023-01-17 10:50:12.058 +05:30 [INF] Getting All EducationDetails
+2023-01-17 10:50:16.799 +05:30 [INF] Reading education about to start
+2023-01-17 10:50:16.801 +05:30 [INF] Reading education ends
+2023-01-17 10:52:42.079 +05:30 [INF] ----Program starts----
+2023-01-17 10:52:42.109 +05:30 [INF] ----Program Ends----
+2023-01-17 10:52:49.524 +05:30 [INF] Getting All EducationDetails
+2023-01-17 10:52:52.197 +05:30 [INF] Reading education about to start
+2023-01-17 10:52:52.199 +05:30 [INF] Reading education ends
+2023-01-17 10:52:57.162 +05:30 [INF] Displaying Main Menu to user
+2023-01-17 10:52:59.534 +05:30 [INF] Exiting application
+2023-01-17 10:53:06.155 +05:30 [INF] ----Program starts----
+2023-01-17 10:53:06.199 +05:30 [INF] ----Program Ends----
+2023-01-17 10:53:43.051 +05:30 [INF] Adding Address 
+44 chennai india 603103 
+2023-01-17 10:53:45.887 +05:30 [INF] Failed to add Address -The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Address__pincode__7AF13DF7". The conflict occurred in database "AssociatesDb", table "Raghu.UserDetails", column 'userId'.
+The statement has been terminated.
+2023-01-17 10:56:12.504 +05:30 [INF] ----Program starts----
+2023-01-17 10:56:12.539 +05:30 [INF] ----Program Ends----
+2023-01-17 10:57:27.396 +05:30 [INF] ----Program starts----
+2023-01-17 10:57:27.427 +05:30 [INF] ----Program Ends----
+2023-01-17 10:58:42.376 +05:30 [INF] ----Program starts----
+2023-01-17 10:58:42.416 +05:30 [INF] ----Program Ends----
+2023-01-17 10:59:28.174 +05:30 [INF] ----Program starts----
+2023-01-17 10:59:28.207 +05:30 [INF] ----Program Ends----
+2023-01-17 11:00:24.005 +05:30 [INF] ----Program starts----
+2023-01-17 11:00:24.037 +05:30 [INF] ----Program Ends----
+2023-01-17 11:04:50.921 +05:30 [INF] ----Program starts----
+2023-01-17 11:04:50.952 +05:30 [INF] ----Program Ends----
+2023-01-17 11:09:31.663 +05:30 [INF] ----Program starts----
+2023-01-17 11:09:31.699 +05:30 [INF] ----Program Ends----
+2023-01-17 11:09:38.445 +05:30 [INF] Displaying Add details menu to user
+2023-01-17 11:47:11.222 +05:30 [INF] ----Program starts----
+2023-01-17 11:47:11.251 +05:30 [INF] ----Program Ends----
+2023-01-17 14:43:38.847 +05:30 [INF] ----Program starts----
+2023-01-17 14:43:38.896 +05:30 [INF] ----Program Ends----
+2023-01-17 15:59:54.499 +05:30 [INF] ----Program starts----
+2023-01-17 15:59:54.536 +05:30 [INF] ----Program Ends----
+2023-01-17 16:00:09.474 +05:30 [INF] Getting All AddressDetails
+2023-01-17 16:00:38.204 +05:30 [INF] Reading address about to start
+2023-01-17 16:00:38.205 +05:30 [INF] Reading address ends

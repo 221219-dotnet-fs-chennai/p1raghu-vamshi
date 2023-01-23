@@ -1,0 +1,66 @@
+2023-01-15 11:51:41.423 +05:30 [INF] ----Program starts----
+2023-01-15 11:51:41.649 +05:30 [INF] ----Program Ends----
+2023-01-15 11:51:49.067 +05:30 [INF] ----Program starts----
+2023-01-15 11:51:49.101 +05:30 [INF] ----Program Ends----
+2023-01-15 11:57:01.491 +05:30 [INF] ----Program starts----
+2023-01-15 11:57:01.537 +05:30 [INF] ----Program Ends----
+2023-01-15 11:57:09.134 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 11:57:12.221 +05:30 [INF] Displaying Main Menu to user
+2023-01-15 12:00:09.652 +05:30 [INF] ----Program starts----
+2023-01-15 12:00:09.702 +05:30 [INF] ----Program Ends----
+2023-01-15 12:02:35.982 +05:30 [INF] ----Program starts----
+2023-01-15 12:02:36.016 +05:30 [INF] ----Program Ends----
+2023-01-15 12:04:32.258 +05:30 [INF] ----Program starts----
+2023-01-15 12:04:32.288 +05:30 [INF] ----Program Ends----
+2023-01-15 12:04:37.884 +05:30 [INF] Getting All UserDetails
+2023-01-15 12:04:41.708 +05:30 [INF] Got list of 4 UserDetails
+2023-01-15 12:04:41.709 +05:30 [INF] Reading userDetails about to start
+2023-01-15 12:04:41.710 +05:30 [INF] Reading userDetails ends
+2023-01-15 12:05:16.706 +05:30 [INF] Displaying Main Menu to user
+2023-01-15 12:05:35.918 +05:30 [INF] Getting All UserDetails
+2023-01-15 12:05:36.393 +05:30 [INF] Got list of 4 UserDetails
+2023-01-15 12:05:36.393 +05:30 [INF] Reading userDetails about to start
+2023-01-15 12:05:36.394 +05:30 [INF] Reading userDetails ends
+2023-01-15 12:05:41.166 +05:30 [INF] Displaying Main Menu to user
+2023-01-15 12:05:43.495 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 12:06:05.776 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 12:06:12.732 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 12:06:18.671 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 12:06:26.081 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 12:06:33.088 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 12:06:38.735 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 12:06:44.079 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 12:06:53.852 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 12:07:01.387 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 12:07:04.661 +05:30 [INF] Displaying Main Menu to user
+2023-01-15 12:07:10.351 +05:30 [INF] Getting All UserDetails
+2023-01-15 12:07:10.703 +05:30 [INF] Got list of 5 UserDetails
+2023-01-15 12:07:10.703 +05:30 [INF] Reading userDetails about to start
+2023-01-15 12:07:10.704 +05:30 [INF] Reading userDetails ends
+2023-01-15 12:07:44.233 +05:30 [INF] Displaying Main Menu to user
+2023-01-15 12:07:46.212 +05:30 [INF] Exiting application
+2023-01-15 13:52:56.269 +05:30 [INF] ----Program starts----
+2023-01-15 13:52:56.524 +05:30 [INF] ----Program Ends----
+2023-01-15 13:53:18.558 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 13:53:22.251 +05:30 [INF] Displaying Main Menu to user
+2023-01-15 13:53:26.719 +05:30 [INF] Getting All UserDetails
+2023-01-15 13:57:53.985 +05:30 [INF] ----Program starts----
+2023-01-15 13:57:54.014 +05:30 [INF] ----Program Ends----
+2023-01-15 13:57:58.645 +05:30 [INF] Getting All UserDetails
+2023-01-15 13:59:19.781 +05:30 [INF] ----Program starts----
+2023-01-15 13:59:19.813 +05:30 [INF] ----Program Ends----
+2023-01-15 13:59:28.217 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 13:59:30.674 +05:30 [INF] Displaying Main Menu to user
+2023-01-15 13:59:35.300 +05:30 [INF] Getting All UserDetails
+2023-01-15 14:18:23.898 +05:30 [INF] ----Program starts----
+2023-01-15 14:18:23.927 +05:30 [INF] ----Program Ends----
+2023-01-15 14:18:36.796 +05:30 [INF] Displaying Main Menu to user
+2023-01-15 14:18:39.416 +05:30 [INF] Exiting application
+2023-01-15 14:18:52.001 +05:30 [INF] ----Program starts----
+2023-01-15 14:18:52.032 +05:30 [INF] ----Program Ends----
+2023-01-15 14:18:56.638 +05:30 [INF] Displaying Add details menu to user
+2023-01-15 14:19:00.672 +05:30 [INF] Displaying Main Menu to user
+2023-01-15 14:19:05.157 +05:30 [INF] Getting All UserDetails
+2023-01-15 14:20:13.970 +05:30 [INF] ----Program starts----
+2023-01-15 14:20:14.013 +05:30 [INF] ----Program Ends----
+2023-01-15 14:20:16.122 +05:30 [INF] Displaying Add details menu to user

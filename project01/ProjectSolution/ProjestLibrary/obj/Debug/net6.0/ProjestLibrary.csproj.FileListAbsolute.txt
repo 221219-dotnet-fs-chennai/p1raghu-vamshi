@@ -1,0 +1,12 @@
+C:\week4\ProjectSolution\ProjestLibrary\bin\Debug\net6.0\ProjestLibrary.deps.json
+C:\week4\ProjectSolution\ProjestLibrary\bin\Debug\net6.0\ProjestLibrary.dll
+C:\week4\ProjectSolution\ProjestLibrary\bin\Debug\net6.0\ProjestLibrary.pdb
+C:\week4\ProjectSolution\ProjestLibrary\obj\Debug\net6.0\ProjestLibrary.csproj.AssemblyReference.cache
+C:\week4\ProjectSolution\ProjestLibrary\obj\Debug\net6.0\ProjestLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\week4\ProjectSolution\ProjestLibrary\obj\Debug\net6.0\ProjestLibrary.AssemblyInfoInputs.cache
+C:\week4\ProjectSolution\ProjestLibrary\obj\Debug\net6.0\ProjestLibrary.AssemblyInfo.cs
+C:\week4\ProjectSolution\ProjestLibrary\obj\Debug\net6.0\ProjestLibrary.csproj.CoreCompileInputs.cache
+C:\week4\ProjectSolution\ProjestLibrary\obj\Debug\net6.0\ProjestLibrary.dll
+C:\week4\ProjectSolution\ProjestLibrary\obj\Debug\net6.0\refint\ProjestLibrary.dll
+C:\week4\ProjectSolution\ProjestLibrary\obj\Debug\net6.0\ProjestLibrary.pdb
+C:\week4\ProjectSolution\ProjestLibrary\obj\Debug\net6.0\ref\ProjestLibrary.dll

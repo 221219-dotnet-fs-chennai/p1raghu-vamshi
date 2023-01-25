@@ -8,23 +8,24 @@ using System.Threading.Tasks;
 
 namespace ConsoleProject
 {
-    public  class UpdateCompany:IMenu
+    public class DeleteCompanyDetails:IMenu
     {
+
         static Company company = new Company();
         static string constr = File.ReadAllText("C:/AssociatesLink/Azurelink.txt");
         IFile repo = new SqlRepo(constr);
         int pid = Validate.Pid();
         public void Display()
         {
-           // company = repo.GetComDetails();
+            // company = repo.GetComDetails();
             System.Console.WriteLine("-----------------------------------------------------------------------------------------------");
-            System.Console.WriteLine("****************************************** Update Experience **********************************");
+            System.Console.WriteLine("****************************************** Delete Company Details **********************************");
             System.Console.WriteLine("-----------------------------------------------------------------------------------------------\n");
-            System.Console.WriteLine("[1] Update Company Name  - "  + company.CompanyName);
-            System.Console.WriteLine("[2] Update Company Name  - "  + company.CompanyName);
-            System.Console.WriteLine("[3] Update Experience    - "  + company.Experience);
-            System.Console.WriteLine("[4] Update Company Email - "  + company.CompanyEmail);
-            System.Console.WriteLine("[5] Update Website       - "  + company.Website);
+            System.Console.WriteLine("[1] To Delete Company Name         - " + company.CompanyName);
+            System.Console.WriteLine("[2] To Delete Company Name         - " + company.CompanyName);
+            System.Console.WriteLine("[3] To Delete Experience            - " + company.Experience);
+            System.Console.WriteLine("[4] To Delete Company Email         - " + company.CompanyEmail);
+            System.Console.WriteLine("[5] To Delete Website           - " + company.Website);
             System.Console.WriteLine("[6] save");
             System.Console.WriteLine("[7] Go Back");
 
@@ -36,70 +37,70 @@ namespace ConsoleProject
             switch (userInput)
             {
                 case "1":
-                    System.Console.WriteLine("Please enter  CompanyName!");
+                    System.Console.WriteLine("Please enter To Delete CompanyName!");
                     company.CompanyName = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Company SET CompanyName = @CompanyName where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($" Delete From Raghu.Company where CompanyName = @CompanyName and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@CompanyName", company.CompanyName);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateCompany";
+                    return "DeleteCompanyDetails";
                 case "2":
-                    System.Console.WriteLine("Please enter CompanyLocation!");
+                    System.Console.WriteLine("Please enter To Delete CompanyLocation!");
                     company.CompanyLocation = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Company SET CompanyLocation = @CompanyLocation where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($" Delete From Raghu.Company where CompanyLocation = @CompanyLocation and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@CompanyLocation", company.CompanyLocation);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateCompany";
+                    return "DeleteCompanyDetails";
                 case "3":
-                    System.Console.WriteLine("Please enter Experience!");
+                    System.Console.WriteLine("Please enter To Delete Experience!");
                     company.Experience = Convert.ToInt32(System.Console.ReadLine());
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Company SET experience = @Experience where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($" Delete From Raghu.Company where experience = @Experience and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@Experience", company.Experience);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateCompany";
+                    return "DeleteCompanyDetails";
                 case "4":
-                    System.Console.WriteLine("Please enter CompanyEmail !");
+                    System.Console.WriteLine("Please enter To Delete CompanyEmail !");
                     company.CompanyEmail = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Company SET CompanyEmail = @CompanyEmail where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($" Delete From Raghu.Company where CompanyEmail = @CompanyEmail and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@CompanyEmail", company.CompanyEmail);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateCompany";
+                    return "DeleteCompanyDetails";
                 case "5":
-                    System.Console.WriteLine("Please enter Website !");
+                    System.Console.WriteLine("Please enter To Delete Website !");
                     company.Website = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Company SET Website = @Website where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($" Delete from Raghu.Company where Website = @Website and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@Website", company.Website);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateCompany";
+                    return " DeleteCompanyDetails";
 
                 case "6":
                     /*try
@@ -117,14 +118,14 @@ namespace ConsoleProject
                     }*/
                     System.Console.WriteLine("saved successfully");
                     System.Console.ReadKey();
-                    return "UpdateCompany";
+                    return " DeleteCompanyDetails";
                 case "7":
                     return "GetComDetails";
                 default:
                     System.Console.WriteLine("Please input a valid response");
                     System.Console.WriteLine("Please press Enter to continue");
                     System.Console.ReadLine();
-                    return "UpdateCompany";
+                    return " DeleteCompanyDetails";
             }
         }
     }

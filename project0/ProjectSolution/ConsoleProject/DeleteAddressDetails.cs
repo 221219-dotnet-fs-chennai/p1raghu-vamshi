@@ -1,4 +1,5 @@
-﻿using ProjestLibrary;
+﻿
+using ProjestLibrary;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleProject
 {
-    public class UpdateAddress : IMenu
+    public class DeleteAddressDetails:IMenu
     {
         static Address address = new Address();
         static string constr = File.ReadAllText("C:/AssociatesLink/Azurelink.txt");
@@ -16,13 +17,13 @@ namespace ConsoleProject
         int pid = Validate.Pid();
         public void Display()
         {
-           // address = repo.GetAddDetails();
+            // address = repo.GetAddDetails();
             System.Console.WriteLine("-----------------------------------------------------------------------------------------------");
-            System.Console.WriteLine("****************************************** Update Address ***********************************");
+            System.Console.WriteLine("****************************************** Delete Address ***********************************");
             System.Console.WriteLine("-----------------------------------------------------------------------------------------------\n");
-            System.Console.WriteLine("[1] Update userAddress -  " + address.userAddress);
-            System.Console.WriteLine("[2] Update country     -  " + address.country);
-            System.Console.WriteLine("[3] Update pincode     -  " + address.pincode);
+            System.Console.WriteLine("[1] To Delete userAddress                     - " + address.userAddress);
+            System.Console.WriteLine("[2] To Delete country                     - " + address.country);
+            System.Console.WriteLine("[3] To Delete pincode                     - " + address.pincode);
             System.Console.WriteLine("[4] save");
             System.Console.WriteLine("[5] Go Back");
         }
@@ -32,45 +33,45 @@ namespace ConsoleProject
             switch (userInput)
             {
                 case "1":
-                    System.Console.WriteLine("Please enter  userAddress!");
+                    System.Console.WriteLine("Please enter To delete userAddress!");
                     address.userAddress = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Address SET userAddress = @userAddress where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.Address where userAddress = @userAddress and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@CompanyName", address.userAddress);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateAddress";
+                    return "DeleteAddress";
                 case "2":
-                    System.Console.WriteLine("Please enter country!");
+                    System.Console.WriteLine("Please enter To delete country!");
                     address.country = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Address SET country = @country where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.Address where country = @country and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@CompanyLocation", address.country);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateAddress";
+                    return "DeleteAddress";
                 case "3":
-                    System.Console.WriteLine("Please enter pincode!");
+                    System.Console.WriteLine("Please enter to delete pincode!");
                     address.pincode = Convert.ToInt32(System.Console.ReadLine());
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Address SET pincode = @pincode where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.Address where pincode = @pincode and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@pincode", address.pincode);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateAddress";
-                case "4":
+                    return "DeleteAddress";
+               case "4":
                     /*try
                     {
                         Log.Information("Adding record \n" + newcompany);
@@ -93,9 +94,8 @@ namespace ConsoleProject
                     System.Console.WriteLine("Please input a valid response");
                     System.Console.WriteLine("Please press Enter to continue");
                     System.Console.ReadLine();
-                    return "UpdateAddress";
+                    return "DeleteAddress";
             }
         }
-        }
     }
-
+}

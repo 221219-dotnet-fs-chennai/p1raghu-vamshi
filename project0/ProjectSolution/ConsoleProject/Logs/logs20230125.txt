@@ -1,0 +1,10 @@
+2023-01-25 08:18:52.655 +05:30 [INF] ----Program starts----
+2023-01-25 08:18:52.700 +05:30 [INF] ----Program Ends----
+2023-01-25 08:19:01.926 +05:30 [INF] Displaying Login details menu to user
+2023-01-25 08:19:24.807 +05:30 [INF] Displaying Login details menu to user
+2023-01-25 08:19:53.159 +05:30 [INF] --------------------------------Displayed All Info------------------------------------------
+2023-01-25 08:21:02.369 +05:30 [INF] ----Program starts----
+2023-01-25 08:21:02.432 +05:30 [INF] ----Program Ends----
+2023-01-25 08:21:04.808 +05:30 [INF] Displaying Login details menu to user
+2023-01-25 08:21:28.199 +05:30 [INF] Displaying Login details menu to user
+2023-01-25 08:21:31.070 +05:30 [INF] --------------------------------Displayed All Info------------------------------------------

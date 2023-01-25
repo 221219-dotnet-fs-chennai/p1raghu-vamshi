@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleProject
 {
-    public class UpdateDetails :IMenu
+    public class DeleteUserDetails:IMenu
     {
         static UserDetails newupdate = new UserDetails();
 
@@ -21,16 +21,16 @@ namespace ConsoleProject
         {
             //  newupdate = repo.GetAllDetails();
             System.Console.WriteLine();
-            System.Console.WriteLine("@@@@@@@@@@@@  Update Trainer Details @@@@@@@@@@@@");
+            System.Console.WriteLine("@@@@@@@@@@@@  Delete User Details @@@@@@@@@@@@");
             System.Console.WriteLine();
-            System.Console.WriteLine("[1] Update Salutation    - "  + newupdate.Salutation);
-            System.Console.WriteLine("[2] Update FirstName     - "  + newupdate.FirstName);
-            System.Console.WriteLine("[3] Update MiddleName    - "  + newupdate.MiddleName);
-            System.Console.WriteLine("[4] Update LastName      - " + newupdate.LastName);
-            System.Console.WriteLine("[5] Update Email         - " + newupdate.Email);
-            System.Console.WriteLine("[6] UpdatePassword       - " + newupdate.Password);
-            System.Console.WriteLine("[7] Update Gender        - " + newupdate.Gender);
-            System.Console.WriteLine("[8] Update Age           - " + newupdate.Age);
+            System.Console.WriteLine("[1] To Delete Salutation      - " + newupdate.Salutation);
+            System.Console.WriteLine("[2] To Delete FirstName      - " + newupdate.FirstName);
+            System.Console.WriteLine("[3] To Delete MiddleName      - " + newupdate.MiddleName);
+            System.Console.WriteLine("[4] To Delete LastName       - " + newupdate.LastName);
+            System.Console.WriteLine("[5] To Delete Email          - " + newupdate.Email);
+            System.Console.WriteLine("[6] To Delete Password        - " + newupdate.Password);
+            System.Console.WriteLine("[7] To Deletee Gender         - " + newupdate.Gender);
+            System.Console.WriteLine("[8] To Delete Age            - " + newupdate.Age);
             System.Console.WriteLine("[9] save");
             System.Console.WriteLine("[0] Go Back");
 
@@ -42,110 +42,110 @@ namespace ConsoleProject
             switch (userInput)
             {
                 case "1":
-                    System.Console.WriteLine("Please enter a Salutation!");
+                    System.Console.WriteLine("Please enter to delete Salutation!");
                     string Salutation = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.UserDetails SET Salutation = @Salutation where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.UserDetails where Salutation = @Salutation and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@Salutation", Salutation);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateDetails";
+                    return "DeleteUserDetails";
                 case "2":
-                    System.Console.WriteLine("Please enter a First name!");
+                    System.Console.WriteLine("Please enter to delete First name!");
                     string FirstName = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.UserDetails SET Firstname = @FirstName where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.UserDetails where Firstname = @FirstName and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@FirstName", FirstName);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateDetails";
+                    return "DeleteUserDetails";
                 case "3":
-                    System.Console.WriteLine("Please enter a Middle name!");
+                    System.Console.WriteLine("Please enter to delete Middle name!");
                     string MiddleName = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.UserDetails SET MiddleName = @MiddleName where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.UserDetails where MiddleName = @MiddleName and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@MiddleName", MiddleName);
                             command.ExecuteNonQuery();
-                           
+
                         }
                     }
-                     return "UpdateDetails";
+                    return " DeleteUsereDetails";
                 case "4":
-                    System.Console.WriteLine("Please enter a Last name!");
+                    System.Console.WriteLine("Please enter to delete Last name!");
                     string LastName = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.UserDetails SET Lastname = @LastName where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.UserDetails where Lastname =@LastName and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@LastName", LastName);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateDetails";
+                    return "DeleteUserDetails";
                 case "5":
-                    System.Console.WriteLine("Please enter New Email!");
+                    System.Console.WriteLine("Please enter to delete Email!");
                     string Email = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.UserDetails SET Email = @Email where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.UserDetails where Email = @Email and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@Email", Email);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateDetails";
+                    return "DeleteUserDetails";
                 case "6":
-                    System.Console.WriteLine("Please enter New Password!");
+                    System.Console.WriteLine("Please enter to delete Password!");
                     string Password = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.UserDetails SET password = @Password where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.UserDetails where Password = @Password and userId = {pid}", connection))
                         {
-                            command.Parameters.AddWithValue("@password", Password);
+                            command.Parameters.AddWithValue("@Password", Password);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateDetails";
+                    return "DeleteUserDetails";
                 case "7":
-                    System.Console.WriteLine("Please enter Gender");
+                    System.Console.WriteLine("Please enter to delete Gender");
                     string Gender = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.UserDetails SET gender = @Gender where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.UserDetails where Gender = @Gender and userId = {pid}", connection))
                         {
-                            command.Parameters.AddWithValue("@gender", Gender);
+                            command.Parameters.AddWithValue("@Gender", Gender);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateDetails";
+                    return "DeleteUserDetails";
                 case "8":
-                    System.Console.WriteLine("Please enter Age!");
+                    System.Console.WriteLine("Please enter to delete Age!");
                     int Age = Convert.ToInt32(System.Console.ReadLine());
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.UserDetails SET age = @Age where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.UserDetails where Age = @Age and userId = {pid}", connection))
                         {
-                            command.Parameters.AddWithValue("@age", Age);
+                            command.Parameters.AddWithValue("@Age", Age);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateDetails";
+                    return "DeleteUserDetails";
                 case "9":
                     /*try
                     {
@@ -162,14 +162,14 @@ namespace ConsoleProject
                     }*/
                     System.Console.WriteLine("saved successfully");
                     System.Console.ReadKey();
-                    return "UpdateDetails";
+                    return "DeleteUserDetails";
                 case "0":
-                    return "LoginUp";
+                    return "GetUserDetails";
                 default:
                     System.Console.WriteLine("Please input a valid response");
                     System.Console.WriteLine("Please press Enter to continue");
                     System.Console.ReadLine();
-                    return "UpdateDetails";
+                    return "DeleteUserDetails";
             }
         }
     }

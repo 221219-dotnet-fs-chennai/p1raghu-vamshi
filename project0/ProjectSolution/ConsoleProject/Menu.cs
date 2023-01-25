@@ -12,8 +12,9 @@ namespace ConsoleProject
         public void Display()
         {
             Console.WriteLine("Welcome to the user");
+            Console.WriteLine();
             Console.WriteLine("what would like to do");
-            Console.WriteLine("  ");
+            Console.WriteLine();
             Console.WriteLine("Press[0]        --          Exit");
             Console.WriteLine("  ");
             Console.WriteLine("Press [1]      --           SignUp");

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleProject
 {
-   public class UpdateEducation:IMenu
+    public class DeleteEducationDetails:IMenu
     {
         static Education education = new Education();
         static string constr = File.ReadAllText("C:/AssociatesLink/Azurelink.txt");
@@ -16,16 +16,16 @@ namespace ConsoleProject
         int pid = Validate.Pid();
         public void Display()
         {
-           // education = repo.GetAll(pid);
+            // education = repo.GetAll(pid);
             System.Console.WriteLine("-----------------------------------------------------------------------------------------------");
-            System.Console.WriteLine("****************************************** Update Education ***********************************");
+            System.Console.WriteLine("****************************************** Delete Education ***********************************");
             System.Console.WriteLine("-----------------------------------------------------------------------------------------------\n");
-            System.Console.WriteLine("[1] Update UG                   - "  + education.UG);
-            System.Console.WriteLine("[2] Update Specialization       - "  + education.Specialization);
-            System.Console.WriteLine("[3] Update University           - "  + education.University);
-            System.Console.WriteLine("[4] Update PassedOutYear        - "  + education.PassedOutYear);
-           // System.Console.WriteLine("[4] Update End year               - " + education.Endyear);
-            System.Console.WriteLine("[5] Update grade                - "  + education.grade);
+            System.Console.WriteLine("[1] TO Delete UG                     - " + education.UG);
+            System.Console.WriteLine("[2] To Delete Specialization         - " + education.Specialization);
+            System.Console.WriteLine("[3] To Delete University             - " + education.University);
+            System.Console.WriteLine("[4] To Delete PassedOutYear          - " + education.PassedOutYear);
+            // System.Console.WriteLine("[4] Update End year               - " + education.Endyear);
+            System.Console.WriteLine("[5] To Delete grade                  - " + education.grade);
             System.Console.WriteLine("[6] save");
             System.Console.WriteLine("[7] Go Back");
 
@@ -37,71 +37,71 @@ namespace ConsoleProject
             switch (userInput)
             {
                 case "1":
-                    System.Console.WriteLine("Please enter a UG!");
+                    System.Console.WriteLine("Please enter to delete UG!");
                     string UG = System.Console.ReadLine();
                     education.UG = UG;
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Education SET UG = @UG where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.Education where UG = @UG and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@UG", UG);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateEducation";
+                    return "DeleteEducationDetails";
                 case "2":
-                    System.Console.WriteLine("Please enter Specialization!");
+                    System.Console.WriteLine("Please enter to delete Specialization!");
                     education.Specialization = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Education SET Specialization = @Specialization where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.Education where Specialization = @Specialization and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@Specialization", education.Specialization);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateEducation";
+                    return "DeleteEducationDetails";
                 case "3":
-                    System.Console.WriteLine("Please enter University!");
+                    System.Console.WriteLine("Please enter to delete University!");
                     education.University = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Education SET University = @University where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.Education where University = @University and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@University", education.University);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateEducation";
+                    return "DeleteEducationDetails";
                 case "4":
-                    System.Console.WriteLine("Please enter New Passed Out Year!");
+                    System.Console.WriteLine("Please enter To delete Passed Out Year!");
                     education.PassedOutYear = Convert.ToInt32(System.Console.ReadLine());
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Education SET PassedOutYear = @PassedOutYear where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.Education where PassedOutYear = @PassedOutYear and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@PassedOutYear", education.PassedOutYear);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateEducation";     
+                    return "DeleteEducationDetails";
                 case "5":
-                    System.Console.WriteLine("Please enter New grade!");
+                    System.Console.WriteLine("Please enter TO delete  grade!");
                     education.grade = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Education SET grade = @grade where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($"Delete From Raghu.Education where grade = @grade and userId = {pid}", connection))
                         {
                             command.Parameters.AddWithValue("@grade", education.grade);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateEducation";
+                    return "DeleteEducationDetails";
                 case "6":
                     /*try
                     {
@@ -119,14 +119,14 @@ namespace ConsoleProject
                     System.Console.WriteLine("saved successful");*/
                     System.Console.WriteLine("saved successfully");
                     System.Console.ReadKey();
-                    return "UpdateEducation";
+                    return "DeleteEducationDetails";
                 case "7":
                     return "GetEduDetails";
                 default:
                     System.Console.WriteLine("Please input a valid response");
                     System.Console.WriteLine("Please press Enter to continue");
                     System.Console.ReadLine();
-                    return "UpdateEducation";
+                    return "DeleteEducationDetails";
             }
         }
     }

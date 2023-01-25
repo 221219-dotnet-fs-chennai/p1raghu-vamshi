@@ -56,14 +56,17 @@ namespace ConsoleProject
                       case "GetUserDetails":
                           menu = new GetUserDetails();
                           break;
-                     /* case "AddLoginDetails":
-                          Log.Information("Displaying Add details menu to user");
-                          menu = new AddLoginDetails();
-                          break;
-                      case "GetLoginDetails":
-                          Log.Information("Displaying add details menu to user");
-                          menu = new GetLoginDetails();
-                          break;*/
+                    /* case "AddLoginDetails":
+                         Log.Information("Displaying Add details menu to user");
+                         menu = new AddLoginDetails();
+                         break;
+                     case "GetLoginDetails":
+                         Log.Information("Displaying add details menu to user");
+                         menu = new GetLoginDetails();
+                         break;*/
+                    case "GettingTranierDetails":
+                        menu= new GettingTranierDetails();
+                        break;
                       case "GetEducationDetails":
                           menu = new GetEducationDetails();
                           break;
@@ -102,6 +105,21 @@ namespace ConsoleProject
                         break;
                     case "UpdateSkills":
                         menu = new UpdateSkills();
+                        break;
+                    case "DeleteUserDetails":
+                        menu = new DeleteUserDetails();
+                        break;
+                    case "DeleteEducationDetails":
+                        menu = new DeleteEducationDetails();
+                        break;
+                    case "DeleteCompanyDetails":
+                        menu = new DeleteCompanyDetails();
+                        break;
+                    case "DeleteAddressDetails":
+                        menu = new DeleteAddressDetails();
+                        break;
+                    case "DeleteSkillDetails":
+                        menu = new DeleteSkillDetails();
                         break;
                     case "Menu":
                         Log.Information("Displaying main menu to user");

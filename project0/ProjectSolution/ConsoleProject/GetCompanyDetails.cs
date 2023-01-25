@@ -9,6 +9,7 @@ namespace ConsoleProject
 {
     public class GetCompanyDetails:IMenu
     {
+       int Id = Validate.Pid();
         static string constr = File.ReadAllText("C:/AssociatesLink/Azurelink.txt");
 
         IFile repo = new SqlRepo(constr);
@@ -17,8 +18,9 @@ namespace ConsoleProject
         public void Display()
         {
             Console.WriteLine("please select an option to filter the Company database");
+            Console.WriteLine("[3] Delete Company Details");
             Console.WriteLine("[2] Update Company Details");
-            Console.WriteLine("[1] All CompanyDetails");
+            Console.WriteLine("[1] View CompanyDetails");
             Console.WriteLine("[0] Go back");
         }
         public string UserChoice()
@@ -32,7 +34,7 @@ namespace ConsoleProject
                 case "1":
                     //logic to Display the result
                     Log.Information("Getting All CompanyDetails");
-                    var listofDetails = repo.GetComDetails();
+                    var listofDetails = repo.GetComDetails(Id);
                     // Log.Information($"Got list of {listofDetails.Count} Login");
                     Log.Information("Reading company about to start");
                     foreach (var r in listofDetails)
@@ -46,6 +48,8 @@ namespace ConsoleProject
                     return "LoginUp";
                 case "2":
                     return "UpdateCompany";
+                case "3":
+                    return "DeleteCompanyDetails";
                 default:
                     Console.WriteLine("please input a valid response");
                     Console.WriteLine("please press enter to continue");

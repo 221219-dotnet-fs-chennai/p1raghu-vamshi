@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleProject
 {
-    public class UpdateSkills : IMenu
+    public class DeleteSkillDetails:IMenu
     {
         static Skills skills = new Skills();
         static string constr = File.ReadAllText("C:/AssociatesLink/Azurelink.txt");
@@ -16,11 +16,11 @@ namespace ConsoleProject
         int pid = Validate.Pid();
         public void Display()
         {
-           //  skills = repo.GetSkillDetails();
+            //  skills = repo.GetSkillDetails();
             System.Console.WriteLine("-----------------------------------------------------------------------------------------------");
-            System.Console.WriteLine("****************************************** Update Skills **************************************");
+            System.Console.WriteLine("****************************************** Delete Skills **************************************");
             System.Console.WriteLine("-----------------------------------------------------------------------------------------------\n");
-            System.Console.WriteLine("[1] Update SkillName - " + skills.SkillName);
+            System.Console.WriteLine("[1] To Delete SkillName        - " + skills.SkillName);
             System.Console.WriteLine("[2] save");
             System.Console.WriteLine("[3] Go Back");
 
@@ -31,18 +31,18 @@ namespace ConsoleProject
             switch (userInput)
             {
                 case "1":
-                    System.Console.WriteLine("Please enter a SkillName!");
-                     skills.SkillName = System.Console.ReadLine();
+                    System.Console.WriteLine("Please enter To Delete SkillName!");
+                    skills.SkillName = System.Console.ReadLine();
                     using (SqlConnection connection = new SqlConnection(constr))
                     {
                         connection.Open();
-                        using (SqlCommand command = new SqlCommand($"UPDATE Raghu.Skills SET SkillName = @SkillName where userId = {pid}", connection))
+                        using (SqlCommand command = new SqlCommand($" Delete From Raghu.Skills where SkillName = @SkillName and userId = {pid}", connection))
                         {
-                            command.Parameters.AddWithValue("@primaryskill", skills.SkillName);
+                            command.Parameters.AddWithValue("@SkillName", skills.SkillName);
                             command.ExecuteNonQuery();
                         }
                     }
-                    return "UpdateSkills";
+                    return "DeleteSkillDetails";
                 case "2":
                     /*try
                     {
@@ -59,14 +59,14 @@ namespace ConsoleProject
                     }*/
                     System.Console.WriteLine("saved successfully");
                     System.Console.ReadKey();
-                    return "UpdateSkills";
+                    return "DeleteSkillDetails";
                 case "3":
                     return "GetSkillDetails";
                 default:
                     System.Console.WriteLine("Please input a valid response");
                     System.Console.WriteLine("Please press Enter to continue");
                     System.Console.ReadLine();
-                    return "UpdateSkills";
+                    return "DeleteSkillDetails";
             }
         }
     }

@@ -91,7 +91,7 @@ namespace ProjestLibrary
             List<UserDetails> userDetails = new List<UserDetails>();
             // establish the connection
             try
-            {
+           {
                 using SqlConnection con = new SqlConnection(connectionString);
                 con.Open();               
                 string query = "select userId, Age, Salutation, FirstName, MiddleName,LastName,Gender,Email,Password from Raghu.UserDetails"; 
@@ -172,7 +172,7 @@ namespace ProjestLibrary
             Console.WriteLine(rows + "row(s) added");
             return education;
         }
-        public List<Education> GetEduDetails()
+        public List<Education> GetEduDetails(int Id)
         {
             List<Education> education = new List<Education>();
             // establish the connection
@@ -184,7 +184,7 @@ namespace ProjestLibrary
                 // for associates - uncomment first
                 //string query = "select Id, Name, OpenTime, CloseTime, Zipcode from Training.Restaurants";
                 // for trainer
-                string query = "select userId, University,UG,Specialization,PassedOutYear,grade from Raghu.Education";
+                string query = $"select userId, University,UG,Specialization,PassedOutYear,grade from Raghu.Education   where userId = '{Id}'"; 
                 using SqlCommand command = new SqlCommand(query, con);
                 // execute it
                 using SqlDataReader reader = command.ExecuteReader();
@@ -224,7 +224,7 @@ namespace ProjestLibrary
             Console.WriteLine(rows + "row(s) added");
             return company;
         }
-        public List<Company> GetComDetails()
+        public List<Company> GetComDetails(int Id)
         {
             List<Company> company = new List<Company>();
             // establish the connection
@@ -232,7 +232,7 @@ namespace ProjestLibrary
             {
                 using SqlConnection con = new SqlConnection(connectionString);
                 con.Open();
-                string query = "select userId,CompanyName,CompanyLocation,Experience,CompanyEmail,Website  from Raghu.Company";
+                string query = $"select userId,CompanyName,CompanyLocation,Experience,CompanyEmail,Website  from Raghu.Company where userId = '{Id}'";
                 using SqlCommand command = new SqlCommand(query, con);
                 // execute it
                 using SqlDataReader reader = command.ExecuteReader();
@@ -271,7 +271,7 @@ namespace ProjestLibrary
 
 
         }
-        public List<Address> GetAddDetails()
+        public List<Address> GetAddDetails(int Id)
         {
             List<Address> address = new List<Address>();
             // establish the connection
@@ -279,7 +279,7 @@ namespace ProjestLibrary
             {
                 using SqlConnection con = new SqlConnection(connectionString);
                 con.Open();
-                string query = "select userId,userAddress,country,pincode  from Raghu.Address";
+                string query = $"select userId,userAddress,country,pincode  from Raghu.Address where userId = '{Id}'";
                 using SqlCommand command = new SqlCommand(query, con);
                 // execute it
                 using SqlDataReader reader = command.ExecuteReader();
@@ -313,7 +313,7 @@ namespace ProjestLibrary
             return skills;
 
         }
-        public List<Skills> GetSkillDetails()
+        public List<Skills> GetSkillDetails(int Id)
         {
             List<Skills> skills = new List<Skills>();
             // establish the connection
@@ -321,7 +321,7 @@ namespace ProjestLibrary
             {
                 using SqlConnection con = new SqlConnection(connectionString);
                 con.Open();
-                string query = "select userId,SkillName  from Raghu.Skills";
+                string query = $"select userId,SkillName  from Raghu.Skills where userId = '{Id}'";
                 using SqlCommand command = new SqlCommand(query, con);
                 // execute it
                 using SqlDataReader reader = command.ExecuteReader();

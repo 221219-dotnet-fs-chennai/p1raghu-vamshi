@@ -17,6 +17,7 @@ namespace ConsoleProject
         public void Display()
         {
             Console.WriteLine("please select an option to filter the UserDetails database");
+            Console.WriteLine("[3] Delete User Details");
             Console.WriteLine("[2]  UpdateDetails");
             Console.WriteLine("[1] View UserDetails");
             Console.WriteLine("[0] Go back");
@@ -46,7 +47,9 @@ namespace ConsoleProject
                     Console.ReadLine();
                     return "LoginUp";
                     case "2":
-                    return "UpdateDetails";
+                    return "GetUserDetails";
+                    case "3":
+                    return "DeleteUserDetails";
                 default:
                     Console.WriteLine("please input a valid response");
                     Console.WriteLine("please press enter to continue");

@@ -15,7 +15,7 @@ namespace Text
         [Test]
         public void TestMap()
         {
-          DD.UserDetail userDetail = new DD.UserDetail();
+            DD.UserDetail userDetail = new DD.UserDetail();
             var modelDD = Mapper.Map(userDetail);
             Assert.AreEqual(modelDD.GetType(), typeof(Modules.UserDetails));
         }

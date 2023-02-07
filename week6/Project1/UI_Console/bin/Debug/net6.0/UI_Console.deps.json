@@ -865,7 +865,8 @@
         "dependencies": {
           "EntityApi": "1.0.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
-          "Modules": "1.0.0"
+          "Modules": "1.0.0",
+          "System.Data.SqlClient": "4.8.5"
         },
         "runtime": {
           "BusinessLogic.dll": {}

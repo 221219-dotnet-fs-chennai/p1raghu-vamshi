@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 //using Modules;
 namespace EntityApi
 {
-    public class SqlRepo:IRepo<Entities.UserDetail>
+    public class SqlRepo : IRepo<Entities.UserDetail>
     {
         public SqlRepo() { }
         Entities.AssociatesDbContext context = new Entities.AssociatesDbContext();
@@ -19,7 +19,7 @@ namespace EntityApi
             context.SaveChanges();
             return entity;
         }
-        public List<Entities.UserDetail> GetAll()
+        public List<Entities.UserDetail> GetUserDetails()
         {
             return context.UserDetails.ToList();
         }

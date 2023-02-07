@@ -18,10 +18,10 @@ namespace service.Controllers
         ILogic logic;
         //  IMemoryCache cache;
         public UserControler(ILogic logic) => this.logic = logic;
-      /*  {
-            logic = logic;
+        /*  {
+              logic = logic;
 
-        }*/
+          }*/
         [HttpGet("FetchUser")]
 
         public IActionResult Get()

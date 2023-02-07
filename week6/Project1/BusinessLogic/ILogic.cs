@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
-    public interface ILogic {
+    public interface ILogic
+    {
 
         public da.UserDetail AddUserDetails(Modules.UserDetails userDetails);
         IEnumerable<Modules.UserDetails> GetUserDetails();
@@ -16,7 +17,7 @@ namespace BusinessLogic
         //UserDetail AddUserDetails(UserDetail r);
         UserDetails RemoveUserDetailsByUserId(int r);
         UserDetails UpdateUserDetails(int UserId, UserDetails r);
-       // object GetUserDetailsByUserId(int userId);
+        // object GetUserDetailsByUserId(int userId);
         // object GetAll();
         //  UserDetails UpdateUserDetails(string name, UserDetails r);
     }

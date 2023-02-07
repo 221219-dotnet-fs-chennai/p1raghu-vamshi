@@ -9,7 +9,7 @@ namespace Modules
     public interface IRepo<T>
     {
         T Add(T t);
-        List<T> GetAll();
+        List<T> GetUserDetails();
         T RemoveUserDetails(int UserId);
         T UpdateUserDetails(T t);
 

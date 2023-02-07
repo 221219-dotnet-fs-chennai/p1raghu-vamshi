@@ -44,10 +44,10 @@ namespace BusinessLogic
             };
         }
 
-      /*  public static IEnumerable<UserDetails> Map(List<UserDetail> userDetails)
+        public static IEnumerable<UserDetails> Map(List<UserDetail> userDetails)
         {
             throw new NotImplementedException();
-        }*/
+        }
 
 
         /// <summary>

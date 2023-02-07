@@ -20,7 +20,7 @@ namespace BusinessLogic
         {
             repo = new da.SqlRepo();
         }
-        public  da.Entities.UserDetail AddUserDetails(Modules.UserDetails user)
+        public da.Entities.UserDetail AddUserDetails(Modules.UserDetails user)
         {
             return repo.Add(Mapper.Map(user));
         }
@@ -32,7 +32,7 @@ namespace BusinessLogic
 
         public IEnumerable<Modules.UserDetails> GetUserDetails()
         {
-            return Mapper.Map(repo.GetAll());
+            return Mapper.Map(repo.GetUserDetails());
         }
         public UserDetails RemoveUserDetailsByUserId(int r)
 
@@ -45,24 +45,24 @@ namespace BusinessLogic
         }
         public UserDetails UpdateUserDetails(int UserId, UserDetails r)
         {
-            var userDetails  = (from rst in repo.GetAll()
-                              where  rst.UserId == r.userId
-                              select rst).FirstOrDefault();
+            var userDetails = (from rst in repo.GetUserDetails()
+                               where rst.UserId == r.userId
+                               select rst).FirstOrDefault();
             if (UserDetail != null)
             {
                 userDetails.UserId = r.userId;
                 userDetails.Age = r.Age;
                 userDetails.Salutation = r.Salutation;
                 userDetails.FirstName = r.FirstName;
-                userDetails.MiddleName= r.MiddleName;
+                userDetails.MiddleName = r.MiddleName;
                 userDetails.LastName = r.LastName;
-                userDetails.Gender= r.Gender;
+                userDetails.Gender = r.Gender;
                 userDetails.Email = r.Email;
-                userDetails.Password=r.Password;
+                userDetails.Password = r.Password;
 
                 userDetails = repo.UpdateUserDetails(userDetails);
             }
-             return Mapper.Map(userDetails);
+            return Mapper.Map(userDetails);
         }
 
         public UserDetail UpdateUserDetails(int UserId, UserDetail r)

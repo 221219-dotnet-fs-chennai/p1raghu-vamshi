@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Text", "Text\Text.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "service", "service\service.csproj", "{09E3D0D4-3CE9-44EF-8CC1-9AC21EE8A68A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI_Console", "UI_Console\UI_Console.csproj", "{D54507B2-476E-4413-BE33-A9650AD70322}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,10 +39,6 @@ Global
 		{09E3D0D4-3CE9-44EF-8CC1-9AC21EE8A68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09E3D0D4-3CE9-44EF-8CC1-9AC21EE8A68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09E3D0D4-3CE9-44EF-8CC1-9AC21EE8A68A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D54507B2-476E-4413-BE33-A9650AD70322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D54507B2-476E-4413-BE33-A9650AD70322}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D54507B2-476E-4413-BE33-A9650AD70322}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D54507B2-476E-4413-BE33-A9650AD70322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

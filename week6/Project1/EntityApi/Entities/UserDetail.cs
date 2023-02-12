@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace EntityApi.Entities;
 
-public partial class UserDetail
+public  class UserDetail
 {
+    
     public int UserId { get; set; }
 
     public int  Age { get; set; }

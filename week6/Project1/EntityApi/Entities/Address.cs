@@ -5,7 +5,7 @@ namespace EntityApi.Entities;
 
 public partial class Address
 {
-    public int? UserId { get; set; }
+    public int UserId { get; set; }
 
     public long PhoneNumber { get; set; }
 
@@ -13,7 +13,7 @@ public partial class Address
 
     public string? Country { get; set; }
 
-    public int? Pincode { get; set; }
+    public int Pincode { get; set; }
 
     public virtual UserDetail? User { get; set; }
 }

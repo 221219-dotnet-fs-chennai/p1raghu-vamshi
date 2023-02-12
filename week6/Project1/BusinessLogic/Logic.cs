@@ -12,29 +12,25 @@ namespace BusinessLogic
 {
     public class Logic : ILogic
     {
-        IRepo<da.Entities.UserDetail> repo;
+        //IRepo<da.Entities.UserDetail> repo;
 
-        private object UserDetail;
+        da.SqlRepo repo = new da.SqlRepo();
 
-        public Logic()
-        {
-            repo = new da.SqlRepo();
-        }
+        //public Logic()
+        //{
+        //    this.repo = new da.SqlRepo();
+        //}
         public da.Entities.UserDetail AddUserDetails(Modules.UserDetails user)
         {
             return repo.Add(Mapper.Map(user));
         }
 
-        public UserDetail AddUserDetails(UserDetail r)
-        {
-            throw new NotImplementedException();
-        }
-
+     
         public IEnumerable<Modules.UserDetails> GetUserDetails()
         {
             return Mapper.Map(repo.GetUserDetails());
         }
-        public UserDetails RemoveUserDetailsByUserId(int r)
+        public UserDetails RemoveUserDetailsByUserId(string r)
 
         {
             var deletedUserDetails = repo.RemoveUserDetails(r);
@@ -43,12 +39,12 @@ namespace BusinessLogic
             else
                 return null;
         }
-        public UserDetails UpdateUserDetails(int UserId, UserDetails r)
+        public UserDetails UpdateUserDetails(string Email, UserDetails r)
         {
             var userDetails = (from rst in repo.GetUserDetails()
                                where rst.UserId == r.userId
                                select rst).FirstOrDefault();
-            if (UserDetail != null)
+            if (userDetails != null)
             {
                 userDetails.UserId = r.userId;
                 userDetails.Age = r.Age;
@@ -65,14 +61,14 @@ namespace BusinessLogic
             return Mapper.Map(userDetails);
         }
 
-        public UserDetail UpdateUserDetails(int UserId, UserDetail r)
-        {
-            throw new NotImplementedException();
-        }
+        //public UserDetail UpdateUserDetails(string Email, UserDetail r)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        UserDetails ILogic.RemoveUserDetailsByUserId(int r)
-        {
-            throw new NotImplementedException();
-        }
+        //UserDetails ILogic.RemoveUserDetailsByUserId(int r)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

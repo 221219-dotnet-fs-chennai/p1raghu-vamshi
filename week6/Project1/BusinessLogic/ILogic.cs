@@ -15,8 +15,8 @@ namespace BusinessLogic
         IEnumerable<Modules.UserDetails> GetUserDetails();
 
         //UserDetail AddUserDetails(UserDetail r);
-        UserDetails RemoveUserDetailsByUserId(int r);
-        UserDetails UpdateUserDetails(int UserId, UserDetails r);
+        UserDetails RemoveUserDetailsByUserId(string r);
+        UserDetails UpdateUserDetails(string Email, UserDetails r);
         // object GetUserDetailsByUserId(int userId);
         // object GetAll();
         //  UserDetails UpdateUserDetails(string name, UserDetails r);

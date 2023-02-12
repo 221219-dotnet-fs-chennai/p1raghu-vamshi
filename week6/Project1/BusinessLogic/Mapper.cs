@@ -1,12 +1,4 @@
-﻿using EntityApi.Entities;
-using Modules;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Cache;
-using System.Text;
-using System.Threading.Tasks;
-using Da = EntityApi.Entities;
+﻿using Da = EntityApi.Entities;
 //using codefirst = Data_CodeFirst;
 
 namespace BusinessLogic
@@ -44,114 +36,95 @@ namespace BusinessLogic
             };
         }
 
-        public static IEnumerable<UserDetails> Map(List<UserDetail> userDetails)
+        public static IEnumerable<Modules.UserDetails> Map(List<Da.UserDetail> userDetails)
         {
-            throw new NotImplementedException();
+           return userDetails.Select(Map);
         }
-
-
-        /// <summary>
-        /// This method converts Data's Restaurant object to Models' Restaurant Entity
-        /// </summary>
-        /// <param --name="r"></param>
-        /// <returns>Models.Restaurant</returns>
-        /* public static Models.Restaurant Map(codefirst.Restaurant r)
-         {
-             return new Models.Restaurant()
-             {
-                 Id = r.Id,
-                 Name = r.Name,
-                 CloseTime = Validation.HandleTimeSpanNulls(r.CloseTime),
-                 Cuisine = r.Cuisine,
-                 OpenTime = Validation.HandleTimeSpanNulls(r.OpenTime),
-                 Email = r.Email,
-                 Phone = r.Phone,
-                 Website = r.Website,
-                 ZipCode = r.Zipcode
-             };
+        public static Modules.Education Map(Da.Education ed)
+        {
+            return new Modules.Education()
+            {
+                userId = ed.UserId,
+                RollNo= ed.RollNo,
+                University = ed.University,
+                UG = ed.UG,
+                Specialization = ed.Specialization,
+                PassedOutYear = ed.PassedOutYear,
+                Grade = ed.Grade,
+            };
+        }
+        public static Da.Education Map(Modules.Education ed)
+        {
+            return new Da.Education()
+            {
+                UserId = ed.userId,
+                RollNo = ed.RollNo,
+                University = ed.University,
+                UG = ed.UG,
+                Specialization = ed.Specialization,
+                PassedOutYear = ed.PassedOutYear,
+                Grade = ed.Grade,
+            };
+        }
+        public static IEnumerable<Modules.Education> Map(List<Da.Education> education)
+        {
+            return education.Select(Map);
+        }
+        public static Modules.Address Map(Da.Address ass)
+        {
+            return new Modules.Address()
+            {
+               userId= ass.UserId,
+               PhoneNumber= ass.PhoneNumber,
+               userAddress= ass.UserAddress,
+               country= ass.Country,
+               pincode= ass.Pincode,
+            };
+        }
+        public static Da.Address Map(Modules.Address ass)
+        {
+            return new Da.Address()
+            {
+                UserId = ass.userId,
+                PhoneNumber= ass.PhoneNumber,
+                UserAddress=ass.userAddress,
+                Country= ass.country,
+                Pincode= ass.pincode,
+            };
+        }
+        public static IEnumerable<Modules.Address> Map(List<Da.Address> address)
+        {
+            return address.Select(Map);
+        }
+        public static Modules.Company Map(Da.Company com)
+        {
+            return new Modules.Company()
+            {
+                userId = com.UserId,
+                CompanyId= com.CompanyId,
+                CompanyName = com.CompanyName,
+                CompanyLocation = com.CompanyLocation,
+                Experience = com.Experience,
+                CompanyEmail= com.CompanyEmail,
+                Website = com.Website,
+            };
          }
-         /// <summary>
-         /// This method converts Data's Restaurant object to Models' Restaurant Entity
-         /// </summary>
-         /// <param name="r"></param>
-         /// <returns>Models.Restaurant</returns>
-         public static Models.Restaurant Map(Data.Restaurant r)
-         {
-             return new Models.Restaurant()
-             {
-                 Id = r.Id,
-                 Name = r.Name,
-                 CloseTime = Validation.HandleTimeSpanNulls(r.CloseTime),
-                 Cuisine = r.Cuisine,
-                 OpenTime = Validation.HandleTimeSpanNulls(r.OpenTime),
-                 Email = r.Email,
-                 Phone = r.Phone,
-                 Website = r.Website,
-                 ZipCode = r.Zipcode
-             };
-         }
-         //task
-         public static IEnumerable<Models.Review> Map(IEnumerable<Data.Review> reviews)
-         {
-             return reviews.Select(Map);
-         }
-         /// <summary>
-         /// This method converts Models' Restaurant object to Entity Framework Restaurant Entity in DataLayer
-         /// </summary>
-         /// <param name="r"></param>
-         /// <returns>Data.Restaurant</returns>
-         public static Data.Restaurant Map(Models.Restaurant r)
-         {
-             return new Data.Restaurant()
-             {
-                 Id = r.Id,
-                 Name = r.Name,
-                 CloseTime = Validation.StringToTime(r.CloseTime.ToString()),
-                 Cuisine = r.Cuisine,
-                 OpenTime = Validation.StringToTime(r.OpenTime.ToString()),
-                 Email = r.Email,
-                 Phone = r.Phone,
-                 Website = r.Website,
-                 Zipcode = r.ZipCode
-             };
-         }
-         /// <summary>
-         /// This method converts Models' Restaurant object to Entity Framework Restaurant Entity in DataLayer
-         /// </summary>
-         /// <param name="r"></param>
-         /// <returns>Data.Restaurant</returns>
-         public static codefirst.Restaurant Map(Models.Restaurant r, string s)
-         {
-             return new codefirst.Restaurant()
-             {
-                 Id = r.Id,
-                 Name = r.Name,
-                 CloseTime = Validation.StringToTime(r.CloseTime.ToString()),
-                 Cuisine = r.Cuisine,
-                 OpenTime = Validation.StringToTime(r.OpenTime.ToString()),
-                 Email = r.Email,
-                 Phone = r.Phone,
-                 Website = r.Website,
-                 Zipcode = r.ZipCode
-             };
-         }
-         /// <summary>
-         /// This method converts Models' collection of Restaurant object to Entity Framework collection of Restaurant Entity
-         /// </summary>
-         /// <param name="restaurants"></param>
-         /// <returns>IEnumerable<Models.Restaurant></returns>
-         public static IEnumerable<Models.Restaurant> Map(IEnumerable<Data.Restaurant> restaurants)
-         {
-             return restaurants.Select(Map);
-         }
-         /// <summary>
-         /// This method converts Models' collection of Restaurant object to Entity Framework collection of Restaurant Entity
-         /// </summary>
-         /// <param name="restaurants"></param>
-         /// <returns>IEnumerable<Models.Restaurant></returns>
-         public static IEnumerable<Models.Restaurant> Map(IEnumerable<codefirst.Restaurant> restaurants)
-         {
-             return restaurants.Select(Map);
-         }*/
+        public static Da.Company Map(Modules.Company com)
+        {
+            return new Da.Company()
+            {
+                UserId = com.userId,
+                CompanyId = com.CompanyId,
+                CompanyName = com.CompanyName,
+                CompanyLocation = com.CompanyLocation,
+                Experience = com.Experience,
+                CompanyEmail = com.CompanyEmail,
+                Website = com.Website,
+            };
+        }
+        public static IEnumerable<Modules.Company> Map(List<Da.Company> company)
+        {
+            return company.Select(Map);
+        }
     }
 }

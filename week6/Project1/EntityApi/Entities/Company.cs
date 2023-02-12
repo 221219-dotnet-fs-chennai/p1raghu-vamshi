@@ -5,7 +5,7 @@ namespace EntityApi.Entities;
 
 public partial class Company
 {
-    public int? UserId { get; set; }
+    public int UserId { get; set; }
 
     public string CompanyId { get; set; } = null!;
 
@@ -13,7 +13,7 @@ public partial class Company
 
     public string? CompanyLocation { get; set; }
 
-    public int? Experience { get; set; }
+    public int Experience { get; set; }
 
     public string? CompanyEmail { get; set; }
 

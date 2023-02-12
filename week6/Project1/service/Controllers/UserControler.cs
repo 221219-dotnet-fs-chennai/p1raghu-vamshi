@@ -39,22 +39,22 @@ namespace service.Controllers
         [HttpPost("AddTrainer")]
         public IActionResult Add([FromBody] Modules.UserDetails userDetails)
         {
-            try
-            {
-                var newuser = logic.AddUserDetails(userDetails);
-                return Created("Add", newuser);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            //try
+            //{
+            var newuser = logic.AddUserDetails(userDetails);
+            return Created("Add", newuser);
+            //}
+            //catch (Exception ex)
+            //{
+            //    return BadRequest(ex.Message);
+            //}
         }
         [HttpDelete("Delete")]
-        public IActionResult Delete([FromHeader] int UserId)
+        public IActionResult Delete([FromHeader] string Email)
         {
             try
             {
-                var userDel = logic.RemoveUserDetailsByUserId(UserId);
+                var userDel = logic.RemoveUserDetailsByUserId(Email);
                 if (userDel != null)
                 {
                     return Ok(userDel);
@@ -70,6 +70,12 @@ namespace service.Controllers
                 return BadRequest(ex.Message);
 
             }
+        }
+        [HttpPut("modify/{Email}")]
+        
+        public ActionResult Put([FromRoute] string Email, [FromBody] UserDetails t)
+        {
+            return Ok(logic.UpdateUserDetails(Email, t));
         }
     }
 }

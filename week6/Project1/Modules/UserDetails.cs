@@ -9,10 +9,12 @@ namespace Modules
 {
     public class UserDetails
     {
+        
         public string email;
         public string password;
 
-        public UserDetails() { }
+       // public UserDetails() { }
+       
         public int userId { get; set; }
         public int Age { get; set; }
         public string Salutation { get; set; }

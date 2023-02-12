@@ -13,19 +13,19 @@ namespace EntityApi
     {
         public SqlRepo() { }
         Entities.AssociatesDbContext context = new Entities.AssociatesDbContext();
-        public Entities.UserDetail Add(Entities.UserDetail entity)
+        public Entities.UserDetail Add(Entities.UserDetail userDetails)
         {
-            context.Add(entity);
+            context.Add(userDetails);
             context.SaveChanges();
-            return entity;
+            return userDetails;
         }
         public List<Entities.UserDetail> GetUserDetails()
         {
             return context.UserDetails.ToList();
         }
-        public Entities.UserDetail RemoveUserDetails(int UserId)
+        public Entities.UserDetail RemoveUserDetails(string Email)
         {
-            var search = context.UserDetails.Where(t => t.UserId == UserId).FirstOrDefault();
+            var search = context.UserDetails.Where(t => t.Email == Email).FirstOrDefault();
             if (search != null)
             {
                 context.UserDetails.Remove(search);// this will generate DELETE query of Sql to be passed to Database

@@ -15,19 +15,20 @@ public partial class AssociatesDbContext : DbContext
     {
     }
 
-    public virtual DbSet<Address> Addresses { get; set; }
+    public virtual DbSet<Address> Address { get; set; }
 
-    public virtual DbSet<Company> Companies { get; set; }
+    public virtual DbSet<Company> Company { get; set; }
 
-    public virtual DbSet<Education> Educations { get; set; }
+    public virtual DbSet<Education> Education { get; set; }
 
     public virtual DbSet<Skill> Skills { get; set; }
 
     public virtual DbSet<UserDetail> UserDetails { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=tcp:associateserver.database.windows.net,1433;Initial Catalog=AssociatesDb;Persist Security Info=False;User ID=associate;Password=Password123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+    {
+        optionsBuilder.UseSqlServer("Server=tcp:associateserver.database.windows.net,1433;Initial Catalog=AssociatesDb;Persist Security Info=False;User ID=associate;Password=Password123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -98,7 +99,7 @@ public partial class AssociatesDbContext : DbContext
             entity.Property(e => e.Specialization)
                 .HasMaxLength(40)
                 .IsUnicode(false);
-            entity.Property(e => e.Ug)
+            entity.Property(e => e.UG)
                 .HasMaxLength(25)
                 .IsUnicode(false)
                 .HasColumnName("UG");

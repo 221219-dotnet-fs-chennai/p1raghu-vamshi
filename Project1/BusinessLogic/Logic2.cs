@@ -17,10 +17,10 @@ namespace BusinessLogic
         Validate _id;
         da.IAddressRepo<da.Entities.Address> repo;
 
-        public Logic2(Validate id, da.AddressSqlRepo _repo)
+        public Logic2(Validate id, da.IAddressRepo<da.Entities.Address> _repo)
         {
             _id = id;
-            repo = repo;
+            repo = _repo;
         }
         public Modules.Address AddAddress(string Email,Modules.Address adu)
         {

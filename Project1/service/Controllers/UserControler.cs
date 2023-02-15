@@ -65,11 +65,11 @@ namespace service.Controllers
             }
         }
         [HttpPost("AddTrainer")]
-        public IActionResult Add([FromBody] Modules.UserDetails userDetails)
+        public IActionResult Add( string Email, [FromBody] Modules.UserDetails userDetails)
         {
             try
             {
-            var newuser = logic.AddUserDetails(userDetails);
+            var newuser = logic.AddUserDetails(Email,userDetails);
             return Created("Add", newuser);
             }
             catch (Exception ex)

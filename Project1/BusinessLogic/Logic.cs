@@ -15,7 +15,7 @@ namespace BusinessLogic
         Validate _id;
         da.IRepo<da.Entities.UserDetail> repo;
 
-        public Logic(Validate id, da.SqlRepo _repo)
+        public Logic(Validate id, da.IRepo<da.Entities.UserDetail>  _repo)
         {
             _id = id;
             repo = _repo;

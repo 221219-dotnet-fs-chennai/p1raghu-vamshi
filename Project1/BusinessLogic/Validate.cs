@@ -15,7 +15,7 @@ namespace BusinessLogic
         ef.AssociatesDbContext  context;
         public Validate(ef.AssociatesDbContext context)
         {
-            context = context;
+            this.context = context;
         }
 
         public int Pid(string email)

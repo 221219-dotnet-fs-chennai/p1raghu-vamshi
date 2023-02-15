@@ -49,11 +49,11 @@ namespace service.Controllers
             }
         }
         [HttpPost]
-        public IActionResult Add([FromBody] Modules.Skills skills)
+        public IActionResult Add( string Email, [FromBody] Modules.Skills skills)
         {
             //try
             //{
-            var newuser = skilllogic.AddSkills(skills);
+            var newuser = skilllogic.AddSkills(Email,skills); 
             return Created("Add", newuser);
         }
         [HttpDelete("Delete")]

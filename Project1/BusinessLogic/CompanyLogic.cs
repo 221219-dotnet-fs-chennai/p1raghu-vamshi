@@ -14,7 +14,7 @@ namespace BusinessLogic
         Validate _id;
         da.ICompanyRepo<da.Entities.Company> repo;
 
-        public CompanyLogic(Validate id, da.CompanySqlRepo _repo)
+        public CompanyLogic(Validate id, da.ICompanyRepo<da.Entities.Company> _repo)
         {
             _id = id;
             repo = repo;

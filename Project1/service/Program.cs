@@ -22,7 +22,7 @@ builder.Services.AddControllers().AddXmlSerializerFormatters();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-var config = builder.Configuration.GetConnectionString("ConnectionString");
+var config = builder.Configuration.GetConnectionString("connectionString");
 builder.Services.AddDbContext<AssociatesDbContext>(options => options.UseSqlServer(config));
 builder.Services.AddScoped<IRepo<EntityApi.Entities.UserDetail>, EntityApi.SqlRepo>();
 builder.Services.AddScoped<ILogic, Logic>();
@@ -34,7 +34,7 @@ builder.Services.AddScoped<ICompanyRepo<EntityApi.Entities.Company>, EntityApi.C
 builder.Services.AddScoped<ICompanyLogic, CompanyLogic>();
 builder.Services.AddScoped<ISkillRepo<EntityApi.Entities.Skill>, EntityApi.SkillSqlRepo>();
 builder.Services.AddScoped<ISkillLogic, SkillLogic>();
-
+builder.Services.AddScoped<Validate>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -45,7 +45,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors();
+
 
 
 app.UseAuthorization();

@@ -49,11 +49,11 @@ namespace service.Controllers
             }
         }
         [HttpPost]
-        public IActionResult Add([FromBody] Modules.Company company)
+        public IActionResult Add(string Email, [FromBody] Modules.Company company)
         {
             //try
             //{
-            var newuser = companylogic.AddCompany(company);
+            var newuser = companylogic.AddCompany(Email,company);
             return Created("Add", newuser);
         }
         [HttpDelete("Delete")]

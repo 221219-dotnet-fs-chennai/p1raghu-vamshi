@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityApi", "EntityApi\Enti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{23AA9FB2-14D2-4D5E-92C1-A8640943BB8B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Text", "Text\Text.csproj", "{D1288610-C589-448B-B5A5-C541406E45F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Text\Test.csproj", "{D1288610-C589-448B-B5A5-C541406E45F0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "service", "service\service.csproj", "{09E3D0D4-3CE9-44EF-8CC1-9AC21EE8A68A}"
 EndProject

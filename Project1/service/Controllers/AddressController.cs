@@ -52,11 +52,11 @@ namespace service.Controllers
 
 
         [HttpPost]
-        public IActionResult Add([FromBody] Modules.Address address)
+        public IActionResult Add(string Email, [FromBody] Modules.Address address)
         {
             //try
             //{
-            var newuser = logic2.AddAddress(address);
+            var newuser = logic2.AddAddress( Email, address);
             return Created("Add", newuser);
         }
         [HttpDelete("Delete")]

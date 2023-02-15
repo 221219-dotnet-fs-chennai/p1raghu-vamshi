@@ -14,7 +14,7 @@ namespace BusinessLogic
         Validate _id;
         da.ISkillRepo<da.Entities.Skill> repo;
 
-        public SkillLogic(Validate id, da.SkillSqlRepo _repo)
+        public SkillLogic(Validate id, da.ISkillRepo<da.Entities.Skill> _repo)
         {
             _id = id;
             repo = _repo;

@@ -3865,9 +3865,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\week6\\Project1\\Text\\Text.csproj",
-      "projectName": "Text",
-      "projectPath": "C:\\week6\\Project1\\Text\\Text.csproj",
+      "projectUniqueName": "C:\\week6\\Project1\\Text\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "C:\\week6\\Project1\\Text\\Test.csproj",
       "packagesPath": "C:\\Users\\keert\\.nuget\\packages\\",
       "outputPath": "C:\\week6\\Project1\\Text\\obj\\",
       "projectStyle": "PackageReference",

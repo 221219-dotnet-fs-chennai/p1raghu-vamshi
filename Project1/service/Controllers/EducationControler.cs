@@ -49,11 +49,11 @@ namespace service.Controllers
             }
         }
         [HttpPost("AddEducation")]
-        public IActionResult Add([FromBody] Modules.Education education)
+        public IActionResult Add(string Email, [FromBody] Modules.Education education)
         {
             //try
             //{
-            var newuser = logic1.AddEduDetails(education);
+            var newuser = logic1.AddEduDetails(Email,education);
             return Created("Add", newuser);
             //}
             //catch (Exception ex)

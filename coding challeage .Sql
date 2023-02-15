@@ -1,5 +1,5 @@
 
-create database Biodata;
+/*create database Biodata;
    --creating table department
   create table Department(
       [Id] int PRIMARY key,
@@ -89,7 +89,7 @@ update Empdetails
  set salary = 90000 
  from EmpDetails as e  
 inner join Employee as s 
-on e.Id=s.Id where s.FirstName = 'Tina';
+on e.Id=s.Id where s.FirstName = 'Tina';*/
           
          
 
